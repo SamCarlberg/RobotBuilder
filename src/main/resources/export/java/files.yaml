@@ -24,22 +24,22 @@
 ## Gradle Wrapper Files
 - !File
   export: $project/gradle/wrapper/gradle-wrapper.jar
-  source: ${exporter-path}../gradle/wrapper/gradle-wrapper.jar
+  source: /export/gradle/wrapper/gradle-wrapper-jar
   update: None
 
 - !File
   export: $project/gradle/wrapper/gradle-wrapper.properties
-  source: ${exporter-path}../gradle/wrapper/gradle-wrapper.properties
+  source: /export/gradle/wrapper/gradle-wrapper.properties
   update: None
 
 - !File
   export: $project/gradlew
-  source: ${exporter-path}../gradle/scripts/gradlew
+  source: /export/gradle/scripts/gradlew
   update: None
 
 - !File
   export: $project/gradlew.bat
-  source: ${exporter-path}../gradle/scripts/gradlew.bat
+  source: /export/gradle/scripts/gradlew.bat
   update: None
 
 ## Key Java Files
